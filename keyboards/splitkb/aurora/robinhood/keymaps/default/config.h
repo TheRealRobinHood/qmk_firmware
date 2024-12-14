@@ -16,7 +16,7 @@
 
 #pragma once
 
-// Not yet available in `info.json`
-// #ifdef OLED_ENABLE
-#   define OLED_FONT_H "keyboards/splitkb/aurora/corne/glcdfont.c"
-// #endif
+#ifdef RGBLIGHT_ENABLE
+#   define RGBLIGHT_EFFECT_BREATHING
+#endif
+
